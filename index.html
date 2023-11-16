@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+    
+    <link rel="stylesheet" href="./imagem/styles.css">
     <title>EBAC Blog</title>
 </head>
 <body>
+    <header>
+       <div class="container">
+        <h1>EBAC Blog</h1>
+       
+        
+       </div>
+    </header>
+    <div id="carrosel">
+        <img src="./imagem/slide-siqueira-02.png" alt="">
+        <img src="./imagem/slide-siqueira-01.png" alt="">
+        <img src="./imagem/slide-siqueira-03.png" alt="">
+
+    </div>
+    <div class="container">
+        <h3>Noticias</h3>
+        <div class="row">
+            <div class="col-4">
+                <article class="card text-bg-dark">   
+                 <header class="card-header">
+                    Exclusivo
+                    </header>
+                    <img src="./imagem/Larissa-Manoela.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="titulo-do-card">Larissa manuela</h4>
+                        <h5 class="subtitulo">Em um novo relacionamento</h5>
+                        <p>
+                            Larissa manuela estaria de romance com um rapaz
+                            da capital cearence, segundas informações ele se chama
+                            Evenilson 43 anos natural de fortaleza
+                            trabalho como programador.
+                            mais ainda não foram visto em público ainda    
+                        </p>
+                        <a class="btn btn-primary" href="">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>19/10/2023 as 20.00.00</time>    
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Exclusivo
+                    </div>
+                    <img src="./imagem/imagem-blog-02.png" alt="">
+                    <div class="card-body">
+                        <h4 class="titulo-do-card">Stive jobs</h4>
+                        <h5 class="subtitulo">O grande da tecnologia</h5>
+                        <p>
+                            Larissa manuela estaria de romance com um rapaz
+                            da capital cearence, segundas informações ele se chama
+                            Evenilson 43 anos natural de fortaleza
+                            trabalho como programador.
+                            mais ainda não foram visto em público ainda       
+                        </p>
+                        <a class="btn btn-primary" href="">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>19/10/2023 as 20.00.00</time>    
+                    </footer>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Exclusivo
+                    </div>
+                    <img src="./imagem/imagem-blog.png" alt="">
+                    <div class="card-body">
+                        <h4 class="titulo-do-card">Thamar guemer</h4>
+                        <h5 class="subtitulo">Em um novo relacionamento</h5>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo aperiam, dignissimos aliquam, suscipit aut iusto aspernatur, iste cumque magnam nihil vitae repellendus quam esse placeat. Nam officiis quia praesentium necessitatibus!
+                        </p>
+                        <a class="btn btn-primary" href="">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>19/10/2023 as 20.00.00</time>    
+                    </footer>
+                </div>   
+            </div> 
 
 
 
@@ -21,6 +107,15 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#carrosel').slick()
+        })
+    </script>
 
     
 </body>
