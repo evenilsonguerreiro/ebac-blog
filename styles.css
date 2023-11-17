@@ -52,6 +52,9 @@ footer{
     font-size: 1.5em;
     text-align: center;
    }
+   .carousel-caption h2{
+    font-size: 0.8em;
+   }
    .noticias{
     display: grid;
     grid-template-columns: 1fr;
