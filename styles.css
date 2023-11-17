@@ -3,9 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgba(222, 184, 135, 0.438);
+}
 
 header{
     background-color: red;
     padding: 10px 0;
     color: white;
+    margin-bottom: 5px;
 }
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.menu{
+    width: 32px;
+}
+.menu span{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 4px;
+}
+nav ul{
+    display:flex;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+a{
+    list-style: none;
+}
+
